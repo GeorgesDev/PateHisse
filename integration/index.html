@@ -7,7 +7,7 @@
 
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Patehisse</title>
 
@@ -17,13 +17,15 @@
       <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Home</a>
       <a class="flex-sm-fill text-sm-center nav-link" href="addRecipe.html">Add recipe</a>
       <a class="flex-sm-fill text-sm-center nav-link" href="myRecipe.html">My recipe</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="">Login</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="login.html">Login</a>
     </nav>
   </div>
 
+  <!-- Banner-->
       <div class="text-center">
       <img src="img/PateHissseBanner.jpg" class="img-fluid" alt="Responsive image">
     </div>
+    <!-- End of banner-->
 
       <!-- Search bar-->
   <div class="container mt-4">
@@ -43,6 +45,28 @@
 <body>
   <br>
   
+  <!-- List_Group_Themes recipes-->
+  <div class="container bg-white d-flex justify-content-around">
+<ul class="list-group list-group-flush">
+  <li a href="#" class="list-group-item list-group-item-action">Entree</li>
+  <li a href="#" class="list-group-item list-group-item-action">Dish</li>
+  <li a href="#" class="list-group-item list-group-item-action">Desserts</li>
+  <li a href="#" class="list-group-item list-group-item-action">Drinks</li>
+</ul>
+    <!-- End List_Group_of themes recipes-->
+
+  <!-- Card recipe of the day-->
+
+  <div class="card text-center" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Recipe of the day :</h5>
+      <img src="img/pancakes.jpg" class="card-img-top" alt="...">
+      <p class="card-text">Pancakes</p>
+      <a href="#" class="btn btn-secondary">Access to recipe</a>
+    </div>
+  </div>
+  <!-- End of Card-->
+
     <!-- Carousel-->
   <div id="carouselExample" class="carousel slide" style="width: 400px; margin: 0 auto" data-ride="carousel">
     <div class="carousel-inner">
@@ -57,8 +81,9 @@
       </div>
     </div>
   </div>
-    <!-- End of Carousel-->
-  
+</div>
+      <!-- End of Carousel-->
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
